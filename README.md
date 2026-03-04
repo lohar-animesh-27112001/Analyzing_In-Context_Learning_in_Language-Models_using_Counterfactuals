@@ -11,7 +11,7 @@ This research presents a comprehensive analysis of the competitive dynamics betw
 ## Run These Commands
   ###
     git clone https://github.com/lohar-animesh-27112001/Analyzing_In-Context_Learning_in_Language-Models_using_Counterfactuals.git
-
+  ###
     cd Analyzing_In-Context_Learning_in_Language-Models_using_Counterfactuals
-
+  ### Model: TinyLlama/TinyLlama-1.1B-Chat-v1.0, Number of Samples: 1000
     python premise_analysis.py --dataset ./Data/gpt2_with_questions_merged.json --model "TinyLlama/TinyLlama-1.1B-Chat-v1.0" --max_samples 1000
