@@ -15,5 +15,5 @@ This research presents a comprehensive analysis of the competitive dynamics betw
     cd Analyzing_In-Context_Learning_in_Language-Models_using_Counterfactuals
   ###
     pip install -r requirements.txt
-  ### Model: TinyLlama/TinyLlama-1.1B-Chat-v1.0, Number of Samples: 1000
+  #### Model: TinyLlama/TinyLlama-1.1B-Chat-v1.0, Number of Samples: 1000
     python test_model.py --dataset ./Data/gpt2_with_questions_merged.json --model "TinyLlama/TinyLlama-1.1B-Chat-v1.0" --max_samples 1000
