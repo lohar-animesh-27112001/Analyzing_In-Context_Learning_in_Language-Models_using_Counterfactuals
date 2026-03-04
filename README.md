@@ -8,3 +8,10 @@ This research presents a comprehensive analysis of the competitive dynamics betw
 - **RQ1:** How do different premise words (Redefine, Assess, Fact Check, Review, Validate, Verify) influence the model’s tendency to prioritize contextual information versus pre-trained memory?
 - **RQ2:**  What happens when we introduce explicit meta-prompts instructing models to prioritize either context or memory, and how effective are these strategic interventions?
 - **RQ3:**  How do model size (GPT-2 Small/Medium/Large) and architecture type (GPT-2 vs TinyLlama) affect the handling of context-memory conflicts?
+## Run These Commands
+  ###
+    git clone https://github.com/lohar-animesh-27112001/Analyzing_In-Context_Learning_in_Language-Models_using_Counterfactuals.git
+
+    cd Analyzing_In-Context_Learning_in_Language-Models_using_Counterfactuals
+
+    python premise_analysis.py --dataset ./Data/gpt2_with_questions_merged.json --model "TinyLlama/TinyLlama-1.1B-Chat-v1.0" --max_samples 1000
